@@ -1,1 +1,1 @@
-worker: python קודלתמידים.py
+worker: python main.py
