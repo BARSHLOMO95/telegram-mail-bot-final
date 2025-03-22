@@ -1,1 +1,0 @@
-worker: python קודלתמידים.py
