@@ -1,1 +1,1 @@
-web: cd marketplace && python app.py
+web: python app.py
