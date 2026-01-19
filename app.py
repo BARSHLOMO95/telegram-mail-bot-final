@@ -9,6 +9,9 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
 
+# Force Render to recognize this as the main app file
+print("✅ Marketplace app starting...")
+
 db = Database()
 
 def allowed_file(filename):
