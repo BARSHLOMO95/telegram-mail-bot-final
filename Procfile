@@ -1,1 +1,1 @@
-worker: python main.py
+web: cd marketplace && python app.py
